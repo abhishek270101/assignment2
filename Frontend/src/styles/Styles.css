@@ -1,0 +1,38 @@
+/* Apply Tailwind CSS utility classes to the table */
+table {
+    @apply w-full border-collapse m-4 mt-8;
+}
+
+th,
+td {
+    @apply border p-4 text-left hover:bg-gray-200;
+}
+
+th {
+    @apply bg-gray-100;
+}
+
+/* Apply Tailwind CSS classes to the pagination buttons */
+button {
+    @apply m-2 px-4 py-2 bg-blue-500 text-white rounded mt-4;
+}
+
+/* Disable state for pagination buttons */
+button:disabled {
+    @apply bg-gray-300 cursor-not-allowed;
+}
+
+/* Style the selected rows */
+tr.selected {
+    @apply bg-gray-200;
+}
+
+/* Apply Tailwind CSS classes to the search bar */
+input[type="text"] {
+    @apply w-full border mt-4 rounded-full border-black;
+}
+
+/* Style the search icon */
+/* .search-icon {
+    @apply ml-2 cursor-pointer;
+} */
