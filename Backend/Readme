@@ -1,0 +1,2 @@
+Backend
+run mvn spring-boot:run to start the backend
